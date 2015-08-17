@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" manifest="./todo.appcache">
 
 <head>
     <title>ToDo - Offline Web App</title>
@@ -11,5 +11,16 @@
     <form>
         <input type="text" placeholder="Add list item" />
     </form>
+    <ul></ul>
+    
+    <!-- indexedDB polyfill / IE, Safari -->
+    <script src="indexeddb.shim.min.js"></script>
+    <!-- Polyfill for ES6 Promises -->
+    <script src="promise.js"></script>
+    
+    <!-- todo application -->
+    <script src="application.js"></script>
+    
+    
 </body>
 </html>
