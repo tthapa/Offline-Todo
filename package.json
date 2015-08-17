@@ -1,0 +1,31 @@
+{
+  "name": "offline-todo",
+  "version": "1.0.0",
+  "description": "Offline first web ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tthapa/Offline-Todo.git"
+  },
+  "keywords": [
+    "offline-first",
+    "todo",
+    "appcache",
+    "serviceworker",
+    "promise",
+    "fetch"
+  ],
+  "author": "tthapa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tthapa/Offline-Todo/issues"
+  },
+  "homepage": "https://github.com/tthapa/Offline-Todo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0"
+  }
+}
